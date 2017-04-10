@@ -1,10 +1,12 @@
+<!doctype html>
+
 <html>
 
 <head>
+     <meta charset='utf-8'>
      <title>
      	Laravel Catzzz
 	</title>
-	<meta charset='utf-8'>
      <link href="/css/lasercat.css" type='text/css' rel='stylesheet'>
 
 
