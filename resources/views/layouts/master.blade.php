@@ -22,11 +22,12 @@
                          <span class="icon-bar"></span>
                          <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="">A3 - Which Cat Are You?</a>
+                    <a class="navbar-brand" href="">A3 - Which Cat Are You?
+                    </a>
                </div>
                <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                         <li class="active"><a href="">Home</a></li>
+                         <li class="active"><a href="/determine">Home</a></li>
                               <li><a href="https://www.youtube.com/watch?v=QH2-TGUlwu4">Listen to Nyan Cat</a></li>
                     </ul>
                </div><!--/.nav-collapse -->
