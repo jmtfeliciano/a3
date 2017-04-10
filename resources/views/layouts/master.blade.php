@@ -6,6 +6,8 @@
 	<meta charset='utf-8'>
 	<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'>
      <link href='https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css' rel='stylesheet'>
+     <link href='/css/regularcat.css' type='text/css' rel='stylesheet'>
+
 </head>
 
 
@@ -31,13 +33,15 @@
           </div>
      </nav>
 
-     <form action="/determine">
-     <input type="submit"  value="Start the Cat Application!" class='btn btn-primary'>
-     </form>
+     <div class="container">
 
-     <section>
-          @yield('content')
-     </section>
+          <div class="starter-template">
+
+               <section>
+                    @yield('content')
+               </section>
+          </div>
+     </div>
 
 
 

@@ -1,0 +1,40 @@
+
+.cat-selector input{
+    position:absolute;
+    z-index:999;
+}
+
+.maine{background-image:url(/photos/maine.png);}
+.persian{background-image:url(/photos/persian.png);}
+.bengal{background-image:url(/photos/bengal.png);}
+.siamese{background-image:url(/photos/siamese.png);}
+.abyssinian{background-image:url(/photos/abyssinian.png);}
+.british{background-image:url(/photos/british.png);}
+
+
+
+.cat-selector input:active +.cat-selector-cc,  input:active +.cat-selector-cc{opacity: .9;}
+.cat-selector input:checked +.cat-selector-cc,  input:checked +.cat-selector-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.cat-selector-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:100px;height:70px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+
+.cat-selector-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
