@@ -11,17 +11,17 @@
 
 
      @if ($results=="british")
-          <h3>You are a British Short Hair Cat! </h3><br>
+          <h3>{{$name}}, you are a British Short Hair Cat! </h3><br>
      @elseif($results=="abyssinian")
-          <h3>You are an Abyssinian cat! </h3>
+          <h3>{{$name}}, you are an Abyssinian cat! </h3>
      @elseif($results=="siamese")
-          <h3>You are a Siamese cat! </h3>
+          <h3>{{$name}}, you are a Siamese cat! </h3>
      @elseif($results=="bengal")
-          <h3>You are a Bengal cat! </h3>
+          <h3>{{$name}}, you are a Bengal cat! </h3>
      @elseif($results=="maine")
-          <h3>You are a Maine cat! </h3>
+          <h3>{{$name}}, you are a Maine cat! </h3>
      @else
-          <h3>You are a Persian cat! </h3>
+          <h3>{{$name}}, you are a Persian cat! </h3>
      @endif
 
      <!--  Breed Description is passed via the CatController  -->

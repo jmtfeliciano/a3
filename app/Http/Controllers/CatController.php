@@ -51,6 +51,7 @@ class CatController extends Controller
 
 
         return view('cats.results')->with([
+             'name' => $name,
              'results' => $results,
              'breedDescription' => $breedDescription
         ]);
