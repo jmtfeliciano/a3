@@ -29,6 +29,7 @@
                     <ul class="nav navbar-nav">
                          <li class="active"><a href="/determine">Home</a></li>
                               <li><a href="https://www.youtube.com/watch?v=QH2-TGUlwu4">Listen to Nyan Cat</a></li>
+                              <li><a href="http://www.people.fas.harvard.edu/~jfeliciano/NyanNyanGame.html">Play Nyan Game (trust me - play this)</a></li>
                     </ul>
                </div><!--/.nav-collapse -->
           </div>
