@@ -2,18 +2,26 @@
 
 <head>
      <title>
-		@yield('cat', 'Which Cat Are You?')
+     	Laravel Catzzz
 	</title>
 	<meta charset='utf-8'>
-	<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'>
-     <link href='https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css' rel='stylesheet'>
+     <link href="/css/lasercat.css" type='text/css' rel='stylesheet'>
+
+
 </head>
 
 
 <body>
 
-	
+     <a href="/determine">
+          <img src="/photos/lasercat.gif" alt="Laser Cat Link"><br>
+     </a>
 
+     <p>Click Your Favorite Animal (The Cat Of Course) to Enter!</p>
+
+     <audio autoplay>
+          <source src="/audio/lasersound.mp3" type="audio/mpeg">
+     </audio>
 
 
 
