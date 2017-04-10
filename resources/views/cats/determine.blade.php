@@ -5,9 +5,9 @@
 @endsection
 
 @section('content')
-    <h3>Which Cat Are You?</h3>
+    <h3>Which Cat Breed Do You Belong To?</h3>
 
-    <h4>Fill Out the Questions Below to Commence <h4> <br><br>
+    <h4>Fill Out the Questions Below to Find Out!  <h4> <br><br>
 
     <form method='POST' action='/show'>
         {{ csrf_field() }}
