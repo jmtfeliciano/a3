@@ -19,7 +19,7 @@
 
      <p>Click Your Favorite Animal (The Cat Of Course) to Enter!</p>
 
-     <audio autoplay>
+     <audio>
           <source src="/audio/lasersound.mp3" type="audio/mpeg">
      </audio>
 
