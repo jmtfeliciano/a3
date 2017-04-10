@@ -12,14 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.master');
 });
 
-
-Route::get('/practice', function() {
-    echo config('mail.driver');
+Route::get('/determine', function () {
+     return view('cats.determine');
 });
 
-Route::get('/{title?}', function ($title = '') {
-     return 'Results for the book: '.$title;
-});
+Route::post('/show', 'CatController@index');
