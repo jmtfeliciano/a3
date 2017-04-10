@@ -9,6 +9,10 @@
 
     <h4>Fill Out the Forms Below to Find Out!  <h4> <br><br>
 
+
+
+     <!--  The form belong collects info about user's name and the selection
+     they prefered for behavior and photos-->
     <form method='POST' action='/show'>
         {{ csrf_field() }}
 

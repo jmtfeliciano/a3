@@ -13,6 +13,8 @@
 
 <body>
 
+
+     <!--  This is the navigation that will be inherited-->
      <nav class="navbar navbar-default">
           <div class="container-fluid">
                <div class="navbar-header">
@@ -35,10 +37,10 @@
           </div>
      </nav>
 
+
+     <!--  The code below is obviously where the child -->
      <div class="container">
-
           <div class="starter-template">
-
                <section>
                     @yield('content')
                </section>
