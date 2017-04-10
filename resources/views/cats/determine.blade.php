@@ -22,7 +22,7 @@
              <option value='bengal'>Athletic and Nature-loving</option>
              <option value='siamese'>Love to Talk!</option>
              <option value='abyssinian'>Stubborn</option>
-             <option value='women'>Independent and introverted</option>
+             <option value='british'>Independent and introverted</option>
         </select><br><br>
 
         <label for='catphoto'>Which Photo Appeals To You The Most:</label>
@@ -48,7 +48,7 @@
              <label class="cat-selector-cc british" for="british"></label>
 
 
-        </div>
+        </div> <br><br>
 
 
 
