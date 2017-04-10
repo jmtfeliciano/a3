@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/practice', function() {
+    echo config('mail.driver');
+});
+
+Route::get('/{title?}', function ($title = '') {
+     return 'Results for the book: '.$title;
+});
