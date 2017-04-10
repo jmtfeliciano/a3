@@ -177,7 +177,16 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+
+
+        /*
+         * The two required packages for a3
+         */
+
         Barryvdh\Debugbar\ServiceProvider::class,
+
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
 
 
     ],
@@ -230,6 +239,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+
 
     ],
 
