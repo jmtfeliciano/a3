@@ -13,7 +13,7 @@
         {{ csrf_field() }}
 
         <label for='name'>Enter Your Name:</label>
-        <input type='text' name='name' id='name' value='{{ $name or '' }}' required><br><br>
+        <input type='text' name='name' id='name' required><br><br>
 
         <label for='catbehavior'>Which Description Applies To You The Most :</label>
         <select name='catbehavior' id='catbehavior'>
@@ -50,6 +50,20 @@
         </div> <br><br>
 
         <input type='submit' class='btn btn-primary' value='Click To Determine Which Cat You Are!'>
+        <br><br><br>
+
+
+
+        <!--  This prints any error if the person enters a non alpha character for name-->
+        @if($errors->get('name'))
+          <div class='alert alert-danger'>
+               <ul>
+                    @foreach($errors->get('name') as $error)
+                    <li>{{ $error }}</li>
+                    @endforeach
+               </ul>
+          </div>
+          @endif
 
     </form>
 
