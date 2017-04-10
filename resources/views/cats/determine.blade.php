@@ -29,7 +29,7 @@
              <option value='british'>Independent and introverted</option>
         </select><br><br>
 
-        <label for='catphoto'>Which Photo Appeals To You The Most:</label>
+        <label>Which Photo Appeals To You The Most:</label>
 
         <div class="cat-selector">
 
